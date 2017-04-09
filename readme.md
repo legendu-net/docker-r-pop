@@ -1,4 +1,4 @@
-# dclong/r-base
+# dclong/r-pop
 
 R base with many popular packages installed. 
 
