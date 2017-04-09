@@ -1,4 +1,4 @@
-FROM dclong/r-base
+FROM dclong/r-base:dev
 
 RUN apt-get update \
     && apt-get -y --no-install-recommends install \
