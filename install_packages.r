@@ -4,7 +4,7 @@ pkgs = '
     rmarkdown DT
     RJDBC jsonlite
     data.table
-    mailR httr openssl
+    mailR httr urltools openssl
     ggplot2
     lubridate
 '
