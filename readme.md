@@ -1,4 +1,4 @@
-# dclong/r-pop
+# [dclong/r-pop](https://hub.docker.com/r/dclong/r-pop/)
 
 R base with many popular packages installed. 
 
