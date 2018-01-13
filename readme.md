@@ -24,10 +24,3 @@ docker run -d \
     -v /wwwroot:/wwwroot \
     dclong/r-pop
 ```
-```
-docker run -d \
-    -e DOCKER_USER=`id -un` \
-    -e DOCKER_USER_ID=`id -u` \
-    -v /wwwroot:/wwwroot \
-    dclong/r-pop
-```
