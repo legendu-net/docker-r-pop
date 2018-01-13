@@ -1,7 +1,7 @@
 pkgs = '
     devtools roxygen2
     Rcpp
-    rmarkdown DT
+    rmarkdown DT caTools bitops
     RJDBC jsonlite
     data.table reshape2
     mailR httr openssl
