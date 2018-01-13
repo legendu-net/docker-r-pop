@@ -11,23 +11,17 @@ R base with many popular packages installed.
 Run the docker with one of the following commands.
 
 ```
-docker run -d \
+docker run -it \
     -v /wwwroot:/wwwroot \
     dclong/r-pop 
 ```
 
 ```
-docker run -d \
+docker run -it \
     -e DOCKER_USER=`id -un` \
     -e DOCKER_USER_ID=`id -u` \
     -e DOCKER_PASSWORD=`id -un` \
     -v /wwwroot:/wwwroot \
     dclong/r-pop
 ```
-```
-docker run -d \
-    -e DOCKER_USER=`id -un` \
-    -e DOCKER_USER_ID=`id -u` \
-    -v /wwwroot:/wwwroot \
-    dclong/r-pop
-```
+
