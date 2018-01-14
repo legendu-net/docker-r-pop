@@ -1,12 +1,9 @@
 pkgs = '
-    devtools roxygen2
-    Rcpp
-    rmarkdown DT caTools bitops
-    RJDBC jsonlite
-    data.table reshape2
-    mailR httr openssl
-    ggplot2
-    lubridate
+    tm RWeka topicmodels NLP openNLP
+    plyr dplyr tidytext tidyverse
+    RCurl XML  boilerpipeR rvest
+    stringr
+    qdap
 '
 pkgs = strsplit(pkgs, '\\s')[[1]]
 pkgs = pkgs[pkgs != '']

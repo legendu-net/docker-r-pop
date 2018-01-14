@@ -1,6 +1,6 @@
 # dclong/r-base
 
-R base with many popular packages installed. 
+R in Docker. 
 
 ## About the Author
 
@@ -13,7 +13,7 @@ Run the docker with one of the following commands.
 ```
 docker run -d \
     -v /wwwroot:/wwwroot \
-    dclong/r-pop 
+    dclong/r-soul 
 ```
 
 ```
@@ -22,5 +22,5 @@ docker run -d \
     -e DOCKER_USER_ID=`id -u` \
     -e DOCKER_PASSWORD=`id -un` \
     -v /wwwroot:/wwwroot \
-    dclong/r-pop
+    dclong/r-soul
 ```

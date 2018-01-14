@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t dclong/r-pop:dev .
+docker build -t dclong/r-pop:soul .
