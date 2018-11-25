@@ -1,4 +1,4 @@
-FROM dclong/r-base:dev
+FROM dclong/r-base
 
 RUN apt-get update \
     && apt-get install -y \
