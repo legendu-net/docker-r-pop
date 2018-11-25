@@ -12,5 +12,4 @@ RUN apt-get update \
     && apt-get autoclean
 
 ADD scripts/ /scripts/
-RUN Rscript /scripts/update_packages.r \
-    && Rscript /scripts/install_packages.r
+RUN Rscript /scripts/install_packages.r
