@@ -1,6 +1,6 @@
 # [dclong/r-pop](https://hub.docker.com/r/dclong/r-pop/)
 
-R base in Docker.
+R with popular packages in Docker.
 **It is suggested that you use [dclong/jupyterhub-ds](https://hub.docker.com/r/dclong/jupyterhub-ds/)
 for data science related work.**
 
@@ -11,6 +11,15 @@ OS: the latest Ubuntu 18.04
 Desktop Environment: None  
 Remote Desktop: None  
 R
+- devtools roxygen2
+- Rcpp
+- rmarkdown DT caTools bitops
+- RJDBC jsonlite
+- data.table
+- mailR httr urltools openssl
+- ggplot2
+- lubridate
+
 
 ## Usage in Linux/Unix
 
